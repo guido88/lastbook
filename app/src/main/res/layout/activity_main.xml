@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.lastbook.MainActivity">
+
+
+    <Button
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:id="@+id/buttonf"
+        android:text="@string/bookst"
+        android:textColor="#D6ECFF"
+        android:textSize="25sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bookshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+    <Button
+
+        android:text="@string/B_shop"
+        android:layout_below="@+id/buttonf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:id="@+id/data"
+        android:textColor="#D6ECFF"
+        android:textSize="25sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bookshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+</RelativeLayout>

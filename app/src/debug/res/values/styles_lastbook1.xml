@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ButtonLastBook1" parent="android:Widget.Holo.Button">
+	  <item name="android:background">@drawable/lastbook1_btn_default_holo_dark</item>
+  </style>
+
+  <style name="ImageButtonLastBook1" parent="android:Widget.Holo.ImageButton">
+	  <item name="android:background">@drawable/lastbook1_btn_default_holo_dark</item>
+  </style>
+
+  <style name="ProgressBarLastBook1" parent="android:Widget.Holo.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/lastbook1_progress_horizontal_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/lastbook1_progress_indeterminate_horizontal_holo_dark</item>
+  </style>
+
+
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FF2325BC</item>
+    </style>
+</resources>

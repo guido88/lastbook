@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#fdcba680</color>
+    <color name="holo_light_primary">#005c8e</color>
+    <color name="colomy">#fdead9c7</color>
+    <color name="holo_light_last">#007bbd</color>
+</resources>

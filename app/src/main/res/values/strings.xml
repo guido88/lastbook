@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"> LastBook</string>
+    <string name="B_shop">Find Shops</string>
+    <string name="title_activity_maps">Book Store Map</string>
+    <string name="but_text">....</string>
+    <string name="immagine_libro">Immagine libro</string>
+    <string name="books">Books</string>
+    <string name="bookst">Books</string>
+    <string name="listab"> Book List</string>
+    <string name="rev"> Reviews</string>
+    <string name="det"> Book Details</string>
+
+        <string-array name="Editori">
+            <item>Feltrinelli</item>
+            <item>Mondadori</item>
+            <item>Deagostini</item>
+        </string-array>
+</resources>

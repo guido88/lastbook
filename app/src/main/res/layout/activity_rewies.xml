@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.lastbook.Rewies"
+    android:paddingBottom="16dp">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_r"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:dividerHeight="10dp"
+        android:divider="@android:color/transparent"
+        android:layout_marginTop="58dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"/>
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbarrev"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+</RelativeLayout>
